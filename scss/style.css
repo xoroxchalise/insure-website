@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  /*
+    font-family: 'Karla', sans-serif; 700;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Karla', sans-serif; 400,700
+    */
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex a {
+  text-decoration: none;
+}
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.header__logo {
+  padding-top: 20px;
+  /*
+        color: $VeryDarkViolet;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 42px;*/
+}
+
+.header__menu a {
+  color: #837d87;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Karla', sans-serif;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header__menu a:hover {
+  color: #2b272f;
+}
+
+.header__menu :not(:last-child) {
+  padding-right: 24px;
+}
+
+.header__btn {
+  border: 2px solid black;
+  background-color: white;
+  padding: 12px 24px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.header__btn:hover {
+  color: #fafafa;
+  background-color: #2d2640;
+}
+
+.container {
+  background-color: #2d2640;
+  height: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .content {
+  padding-top: 178px;
+  padding-left: 125px;
+}
+
+.container .content__heading {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  color: #fafafa;
+  font-size: 52px;
+}
+
+.container .content__para {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #837d87;
+  padding-top: 10px;
+}
+
+.container .content__btn {
+  border: 2px solid #fafafa;
+  background-color: #2d2640;
+  color: #837d87;
+  margin-top: 38px;
+  padding: 12px 24px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.container .content__btn:hover {
+  color: #fafafa;
+  background-color: #2d2640;
+}
+
+.container .person {
+  margin-top: 102px;
+  padding-left: 28px;
+}
+
+.imageone {
+  height: 332;
+  width: 1440;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.imageone__patrren {
+  margin-top: -171px;
+}
+
+.imageone__rightpatrren {
+  margin-top: -600px;
+}
+
+.semimain {
+  margin-right: 70px;
+  height: 862px;
+  width: 1112px;
+  margin-left: 120px;
+  /*
+  .svg{to be done
+    position: relative;
+    float: right;
+    padding-top: 200px;
+    right: 300px;
+  }
+  */
+}
+
+.semimain__heading {
+  margin-left: 90px;
+  font-size: 45px;
+  font-family: "DM Serif Display", serif;
+}
+
+.semimain .cards {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.semimain .cards .card {
+  padding-top: 90px;
+}
+
+.semimain .cards .card__heading {
+  padding-top: 35px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.semimain .cards .card__pra {
+  padding-top: 25px;
+  color: #837d87;
+  font-family: "Karla", sans-serif;
+}
+
+.semimain .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 165px;
+  height: 252px;
+  width: 100%;
+  background-color: #2d2640;
+}
+
+.semimain .color__heading {
+  margin-top: 74px;
+  font-size: 45px;
+  color: #fafafa;
+}
+
+.semimain .color__btn {
+  margin-top: 105px;
+  height: 37px;
+  width: 162px;
+  color: #fafafa;
+  background-color: #2d2640;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border: 1px solid black;
+}
+
+.semimain .color__btn:hover {
+  background-color: #fafafa;
+  color: #2d2640;
+}
+
+.little {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 60px;
+  width: 1112px;
+  margin-left: 120px;
+}
+
+.little__head {
+  font-family: 'DM Serif Display', serif;
+}
+
+.little__logo .apple {
+  margin-right: 5px;
+  padding-right: 15px;
+}
+
+.footer {
+  color: #837d87;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 80px;
+}
+
+.footer__left {
+  margin-bottom: 45px;
+}
+
+.footer__left__heading {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.footer__left__heading:hover {
+  color: #2b272f;
+}
+
+.footer__left__list {
+  margin-top: 15px;
+}
+
+.footer__left__list li {
+  padding-top: 5px;
+  list-style: none;
+}
+
+.footer__left__list li a {
+  color: #837d87;
+  text-decoration: none;
+}
+
+.footer__mid {
+  margin-bottom: 45px;
+}
+
+.footer__mid__list {
+  margin-top: 15px;
+}
+
+.footer__mid__list li {
+  padding-top: 5px;
+  list-style: none;
+}
+
+.footer__mid__list li a {
+  color: #837d87;
+  text-decoration: none;
+}
+
+.footer__mid2 {
+  margin-bottom: 45px;
+}
+
+.footer__mid2__list {
+  margin-top: 15px;
+}
+
+.footer__mid2__list li {
+  padding-top: 5px;
+  list-style: none;
+}
+
+.footer__mid2__list li a {
+  color: #837d87;
+  text-decoration: none;
+}
+
+.footer__right {
+  margin-bottom: 45px;
+}
+
+.footer__right__list {
+  margin-top: 15px;
+}
+
+.footer__right__list li {
+  padding-top: 5px;
+  list-style: none;
+}
+
+.footer__right__list li a {
+  color: #837d87;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 746PX) {
+  .flex {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 746PX) {
+  .container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 746PX) {
+  .imageone {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */

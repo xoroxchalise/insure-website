@@ -1,0 +1,106 @@
+.semimain {
+  margin-right: 70px;
+  height: 862px;
+  width: 1112px;
+  margin-left: 120px;
+  &__heading {
+
+    margin-left: 90px;
+    font-size: 45px;
+    font-family: "DM Serif Display", serif;
+  }
+  .cards {
+    
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    .card {
+      padding-top: 90px;
+
+      &__logo {
+          
+      }
+
+      &__heading {
+        padding-top: 35px;
+        font-family: "DM Serif Display", serif;
+        font-weight: 700;
+        font-size: 20px;
+      }
+
+      &__pra {
+        padding-top: 25px;
+        color: $DarkGrayishViolet;
+        font-family: "Karla", sans-serif;
+      }
+    }
+  }
+
+  .color{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 165px;
+    height: 252px;
+    width: 100%;
+    background-color: $DarkViolet;
+
+
+    &__heading{
+      margin-top: 74px;
+      font-size: 45px;
+      color: $VeryLightGray;
+
+    }
+
+    &__btn{
+      margin-top: 105px;
+      height: 37px;
+      width: 162px;
+      color: $VeryLightGray;
+      background-color: $DarkViolet;
+      transition: 0.5s ease-in-out;
+      border: 1px solid black;
+
+      &:hover{
+        background-color:$VeryLightGray;
+        color: $DarkViolet;
+      }
+    }
+  }
+
+  /*
+  .svg{to be done
+    position: relative;
+    float: right;
+    padding-top: 200px;
+    right: 300px;
+  }
+  */
+}
+
+
+.little{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  width: 1112px;
+  margin-left: 120px;
+
+
+  &__head{
+    font-family: 'DM Serif Display', serif;
+  }
+
+  &__logo{
+    .apple{
+      margin-right: 5px;
+      padding-right: 15px;
+
+    }
+  }
+
+
+    
+
+}
